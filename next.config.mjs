@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  experimental: {
+    serverComponentsExternalPackages: ['mongodb']
+  },
+  images: {
+    domains: ['localhost'],
+    unoptimized: false
+  }
+};
 
 export default nextConfig;

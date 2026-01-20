@@ -35,15 +35,21 @@ const Shorten = () => {
     }
 
     return (
-        <div className='mx-auto max-w-lg bg-purple-200 my-16 p-8 rounded-lg flex flex-col gap-4'>
-            <h1 className='font-bold text-2xl'>Generate your short URLs</h1>
+        <div className='mx-auto max-w-lg bg-purple-200 my-8 md:my-16 p-4 md:p-8 rounded-lg flex flex-col gap-4 mx-4'>
+            <h1 className='font-bold text-xl md:text-2xl text-center'>Generate your short URLs</h1>
             <div className='flex flex-col gap-2'>
-                <input type="text" value={url} className='bg-white px-4 py-2 focus:outline-purple-600 rounded-md' placeholder='Enter your URL' onChange={e => { seturl(e.target.value) }} />
-                <input type="text" value={shorturl} className='px-4 py-2 focus:outline-purple-600 rounded-md bg-white' placeholder='Enter your preferred short URL text' onChange={e => { setshorturl(e.target.value) }} />
-                <button onClick={generate} className='bg-purple-500 shadow-lg rounded-lg p-3 py-1 font-bold my-3 text-white'>Generate</button>
+                <input type="text" value={url} className='bg-white px-4 py-2 focus:outline-purple-600 rounded-md text-sm md:text-base' placeholder='Enter your URL' onChange={e => { seturl(e.target.value) }} />
+                <input type="text" value={shorturl} className='px-4 py-2 focus:outline-purple-600 rounded-md bg-white text-sm md:text-base' placeholder='Enter your preferred short URL text' onChange={e => { setshorturl(e.target.value) }} />
+                <button onClick={generate} className='bg-purple-500 shadow-lg rounded-lg p-3 py-2 font-bold my-3 text-white text-sm md:text-base'>Generate</button>
             </div>
-            {generated && <> <span className='font-bold text-lg'>Your Link</span><code><Link target="_blank" href={generated}>{generated}</Link> 
-                </code></>}
+            {generated && (
+                <>
+                    <span className='font-bold text-base md:text-lg'>Your Link</span>
+                    <code className='break-all text-sm'>
+                        <Link target="_blank" href={generated}>{generated}</Link>
+                    </code>
+                </>
+            )}
         </div>
     )
 }
