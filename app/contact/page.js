@@ -6,7 +6,7 @@ export default function Contact() {
         
         <div className="space-y-4 md:space-y-6">
           <p className="text-gray-700 text-center md:text-left text-sm md:text-base">
-            Have questions or feedback about Bitlinks? We'd love to hear from you!
+            Have questions or feedback about Bitlinks? We&apos;d love to hear from you!
           </p>
           
           <div className="space-y-3 md:space-y-4">
@@ -29,7 +29,7 @@ export default function Contact() {
           <div className="bg-purple-50 p-3 md:p-4 rounded-lg">
             <h3 className="font-semibold text-purple-600 mb-2 text-sm md:text-base">Quick Help</h3>
             <p className="text-xs md:text-sm text-gray-600">
-              For technical issues, please include the short URL and describe the problem you're experiencing.
+              For technical issues, please include the short URL and describe the problem you&apos;re experiencing.
             </p>
           </div>
         </div>
