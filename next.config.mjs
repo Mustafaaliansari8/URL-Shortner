@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    serverComponentsExternalPackages: ['mongodb']
-  },
+  serverExternalPackages: ['mongodb'],
   images: {
     domains: ['localhost'],
     unoptimized: false
