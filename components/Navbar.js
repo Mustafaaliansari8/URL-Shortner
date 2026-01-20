@@ -14,7 +14,7 @@ const Navbar = () => {
         <Link href="/contact" className='hover:text-purple-200'><li>Contact us</li></Link>
         <li className='flex flex-col sm:flex-row gap-3 mt-2 md:mt-0'>
             <Link href="/Shorten"><button className="cursor-pointer bg-purple-500 shadow-lg rounded-lg px-3 py-2 font-bold text-sm w-full sm:w-auto">Try now</button></Link>
-            <Link href="/github"><button className="cursor-pointer bg-purple-500 shadow-lg rounded-lg px-3 py-2 font-bold text-sm w-full sm:w-auto">Github</button></Link>
+            <Link href="https://github.com/Mustafaaliansari8"><button className="cursor-pointer bg-purple-500 shadow-lg rounded-lg px-3 py-2 font-bold text-sm w-full sm:w-auto">Github</button></Link>
         </li>
     </ul>
  </nav>

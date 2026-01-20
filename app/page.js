@@ -21,7 +21,7 @@ export default function Home() {
           </p>
           <div className='flex flex-col sm:flex-row gap-3 justify-center'>
             <Link href="/Shorten"><button className="cursor-pointer bg-purple-500 shadow-lg rounded-lg p-3 py-2 text-white font-bold w-full sm:w-auto">Try now</button></Link>
-            <Link href="/github"><button className="cursor-pointer bg-purple-500 shadow-lg rounded-lg p-3 py-2 text-white font-bold w-full sm:w-auto">Github</button></Link>
+            <Link href="https://github.com/Mustafaaliansari8"><button className="cursor-pointer bg-purple-500 shadow-lg rounded-lg p-3 py-2 text-white font-bold w-full sm:w-auto">Github</button></Link>
         </div>
         </div>
         <div className="flex justify-center relative h-64 md:h-96 lg:h-full mt-8 lg:mt-0">

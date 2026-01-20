@@ -17,7 +17,7 @@ export default function Contact() {
             
             <div>
               <h3 className="text-base md:text-lg font-semibold text-purple-500">GitHub</h3>
-              <a href="https://github.com/Mustafaaliansari8" className="text-gray-600 hover:text-purple-600 text-sm md:text-base break-all">https://github.com/Mustafaaliansari8</a>
+              <a href="https://github.com/Mustafaaliansari8" className="text-gray-600 hover:text-purple-600 text-sm md:text-base break-all">Mustafaaliansari8</a>
             </div>
             
             <div>
